@@ -142,7 +142,7 @@ const App = () => {
       </form>
 
       {/* Busca de Fornecedor */}
-      <div>
+      <div className="main1">
         <p className="main2">Buscar Fornecedor</p>
         <input
           className="input"

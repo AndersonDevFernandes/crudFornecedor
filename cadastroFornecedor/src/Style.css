@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  background-color: darkgrey;
+  background-color: rgb(95, 95, 95);
 }
 
 .main1 {
@@ -13,7 +13,7 @@
 
 .main2 {
   font-size: 3rem;
-  color: #f90505;
+  color: #ffffff;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
@@ -23,9 +23,10 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #3b3b3b;
+  background-color: #7a7a7a;
   padding: 2rem;
-  border-radius: 10px;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -36,22 +37,27 @@
   margin: 10px 0;
   border: 1px solid #ccc;
   border-radius: 5px;
+  color: #cfcfcf;
+  font-weight: 700;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
 }
 
 .button {
   width: 10rem;
   height: 2rem;
-
   margin: 1rem;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #520000;
+  background-color: #000000;
   color: white;
   font-weight: bold;
   cursor: pointer;
 }
 
 /* =========================== */
+
 .modal {
   display: flex;
   justify-content: center;
@@ -69,7 +75,7 @@
 .modal-content {
   margin: auto;
   padding: 20px;
-  border: 1px solid #888;
+  border: 1px solid #8d8d8d;
   width: 80%;
   max-width: 500px;
   border-radius: 10px;
@@ -84,7 +90,7 @@
 
 .close:hover,
 .close:focus {
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   cursor: pointer;
 }
