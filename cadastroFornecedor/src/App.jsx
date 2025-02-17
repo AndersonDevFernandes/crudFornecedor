@@ -15,7 +15,7 @@ const App = () => {
   const [fornecedor, setFornecedor] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  // Carregar dados do local storage quando o componente for montado
+  // Carregar dados do local storage quando o componente for montado.
   useEffect(() => {
     const savedForm = localStorage.getItem("form");
     if (savedForm) {
@@ -23,7 +23,7 @@ const App = () => {
     }
   }, []);
 
-  // Atualizar os dados do formulário e salvar no local storage
+  // Atualizar os dados do formulário e salvar no local storage.
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     const updatedForm = { ...form, [name]: value };
