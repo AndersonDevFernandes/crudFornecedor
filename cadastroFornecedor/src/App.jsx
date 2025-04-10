@@ -49,7 +49,7 @@ const App = () => {
     localStorage.removeItem("form");
   };
 
-  // Buscar fornecedor
+  // Buscar fornecedor.
   const handleSearch = () => {
     const fornecedores = JSON.parse(localStorage.getItem("fornecedores")) || [];
     const foundFornecedor = fornecedores.find((f) => f.cnpj === searchCnpj);
